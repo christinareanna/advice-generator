@@ -29,10 +29,10 @@
     text-transform: uppercase;
     font-size: 0.6em;
     font-family: 'Manrope', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    font-weight: 600;
     padding-top: 3em;
 }
-
 
 .dice {
     margin: -10px;
@@ -48,16 +48,6 @@
     height: 25px;
     transform: translateY(-30%);
 }
-
-/* Need to add desktop divider image */
-.line-image {
-    background-image: url("images/pattern-divider-mobile.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 10rem;
-    height: 2rem;
-}
-
 
 .top-btn {
     padding: 2em;
@@ -79,4 +69,24 @@
     border: none;
     border-radius: 100%;
     cursor: pointer;
+}
+
+.top-btn:hover {
+    box-shadow: 0 0 50px 5px hsl(150, 100%, 66%);
+}
+
+.btn:hover {
+    box-shadow: 0 0 50px 5px hsl(150, 100%, 66%);
+}
+
+@media screen and (min-width: 769px) {
+    .mobile-divider {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .desktop-divider {
+        display: none;
+    }
 }
