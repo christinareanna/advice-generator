@@ -1,6 +1,6 @@
 .main-container {
     margin: 0 auto;
-    padding-top: 5em;
+    padding-top: 10em;
     font-size: clamp(1.3em, 3vw, 1.5em);
     width: clamp(340px, 80%, 700px);
     height: 100%;
@@ -50,7 +50,7 @@
 }
 
 .top-btn {
-    padding: 2em;
+    padding: 2.2em 0;
     width: 60px;
     height: 60px;
     border-radius: 100%;
@@ -61,7 +61,7 @@
 }
 
 .btn {
-    padding: 2em;
+    padding: 2.2em 0;
     transform: translateY(-50%);
     width: 60px;
     height: 60px;
