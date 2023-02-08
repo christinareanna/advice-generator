@@ -35,7 +35,7 @@
 }
 
 .dice {
-    margin: -10px;
+    margin-top: 0;
     background-color: hsl(150, 100%, 66%);
     width: 25px;
     height: 25px;
@@ -43,7 +43,7 @@
 }
 
 .dice-2 {
-    margin: -10px;
+    margin-top: 0;
     width: 25px;
     height: 25px;
     transform: translateY(-30%);
